@@ -13,6 +13,9 @@ toggleBtnDOM.addEventListener('click',()=>{
 })
 
 
+let date = getElement('#date');
+let currentYear = new Date().getFullYear();
+date.innerText = currentYear;
 
 
 
